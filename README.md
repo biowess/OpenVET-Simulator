@@ -15,8 +15,10 @@ Commercial rotational thromboelastometry (ROTEM) analyzers operate as proprietar
 - [Overview](#overview)
 - [The Scientific Monograph](#the-scientific-monograph)
 - [Key Features](#key-features)
+- [Visualizations](#visualizations)
 - [Installation & Usage](#installation--usage)
 - [Mathematical Framework](#mathematical-framework)
+- [License](#license)
 - [Disclaimer](#disclaimer)
 
 ---
@@ -25,7 +27,7 @@ Commercial rotational thromboelastometry (ROTEM) analyzers operate as proprietar
 
 This simulator implements a reduced-order ordinary differential equation (ODE) system to model the core hemostatic network: thrombin generation, fibrin polymerization, fibrinolysis, and platelet activation. Biochemical states are mapped to viscoelastic amplitude (in millimeters) via an additive Clot Elasticity (CE) transformation.
 
-The application allows users to select specific ROTEM assays (EXTEM, FIBTEM, APTEM, INTEM) and apply pathological presets (Hypofibrinogenemia, Thrombocytopenia, Hyperfibrinolysis) to observe their effects on the viscoelastic trace in real time.
+The application allows users to select specific functional fibrinogen assays (EXTEM, FIBTEM, APTEM, INTEM) and apply pathological presets (Hypofibrinogenemia, Thrombocytopenia, Hyperfibrinolysis) to observe their effects on the viscoelastic trace in real time.
 
 ---
 
@@ -54,14 +56,25 @@ The monograph details the exact ODE specifications, parameter provenance (derive
 
 ---
 
+## 📸 Visualizations
+
+The simulator accurately reproduces both physiological baseline traces and lethal pathological phenotypes.
+
+| Normal EXTEM Baseline | Hyperfibrinolysis ("Death Diamond") |
+| :---: | :---: |
+| ![Normal EXTEM Trace](screenshots/01_normal.png) | ![Death Diamond Trace](screenshots/02_death_diamond.png) |
+| *Calibrated to MCF ~60mm, CT ~50s* | *Simulating rapid clot formation and acute plasmin-mediated lysis* |
+
+---
+
 ## 💻 Installation & Usage
 
 To run the simulator locally, ensure you have Python 3.8+ installed.
 
 **1. Clone the repository:**
 ```bash
-git clone https://github.com/your-username/OpenROTEM-Simulator.git
-cd OpenROTEM-Simulator
+git clone https://github.com/biowess/OpenVET-Simulator.git
+cd OpenVET-Simulator
 ```
 
 **2. Install the required dependencies:**
