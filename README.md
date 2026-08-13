@@ -7,7 +7,7 @@ Commercial rotational thromboelastometry (ROTEM) analyzers operate as proprietar
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Web_App-ff4b4b.svg)
 ![License](https://img.shields.io/badge/License-CC_BY--NC_4.0-lightgrey.svg)
-[![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.YOUR_DOI_HERE-lightgreen)](https://doi.org/YOUR_ZENODO_DOI_URL)
+[![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.21922911-lightgreen)](https://doi.org/10.5281/zenodo.21922911)
 
 ---
 
