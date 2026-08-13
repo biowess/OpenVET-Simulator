@@ -38,7 +38,7 @@ The mathematical and computational foundations of this software are rigorously d
 
 The monograph details the exact ODE specifications, parameter provenance (derived from Hockin et al., Weisel & Nagaswami, Ouedraogo et al., and Fogelson et al.), numerical implementation (LSODA solver configuration), and phenotypic validation against clinical literature. 
 
-📄 **[Read the Full Monograph (PDF)](./MONOGRAPH.pdf)** *(Make sure to upload your PDF to the repo and rename it to MONOGRAPH.pdf)*
+📄 **[Read the Full Monograph (PDF)](./MONOGRAPH.pdf)**
 
 ---
 
