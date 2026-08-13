@@ -6,7 +6,8 @@ Commercial rotational thromboelastometry (ROTEM) analyzers operate as proprietar
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Web_App-ff4b4b.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
+![License](https://img.shields.io/badge/License-CC_BY--NC_4.0-lightgrey.svg)
+[![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.YOUR_DOI_HERE-lightgreen)](https://doi.org/YOUR_ZENODO_DOI_URL)
 
 ---
 
@@ -86,6 +87,15 @@ $$CE_{platelet} = CEmax_{plt} \cdot \frac{[Pa]}{[Pa] + K_{Pa}} \cdot \left( \fra
 $$A(t) = \frac{100 \cdot (CE_{fibrin} + CE_{platelet})}{100 + (CE_{fibrin} + CE_{platelet})}$$
 
 *Note: Because the reduced-order model operates in normalized concentration spaces rather than strict Molar units, effective rate constants are calibrated to preserve proportional relationships while maintaining numerical stability within the ODE solver.*
+
+---
+
+## ⚖️ License
+
+This project is licensed under the **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)** license.
+
+- **Educational & Research Use:** Allowed and encouraged.
+- **Commercial Use:** Strictly prohibited without explicit written permission from the author.
 
 ---
 
